@@ -5,13 +5,13 @@ import "./globals.css";
 
 const barlow_regular = Barlow({
   subsets: ["latin"],
-  variable: "--barlow_regular",
+  variable: "--barlow",
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 const roboto_regular = Roboto({
   subsets: ["latin"],
-  variable: "--roboto_regular",
+  variable: "--roboto",
   weight: ["400", "500", "700", "900"],
 });
 
