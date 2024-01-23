@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import type { Viewport } from "next";
-import { Roboto, Barlow } from "next/font/google";
+import { Roboto, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 
-const barlow_regular = Barlow({
+const barlow = Barlow_Condensed({
   subsets: ["latin"],
   variable: "--barlow",
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-const roboto_regular = Roboto({
+const roboto = Roboto({
   subsets: ["latin"],
   variable: "--roboto",
   weight: ["400", "500", "700", "900"],
@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Half Shiba Inu - $SHIB0.5 Official Website",
+  title: "Half Shiba Inu - Official Website",
   description:
     "Half Shiba Inu is one of the first tokens to be paired with $SHIB LP, To utilize $SHIB token. $SHIB0.5 The Community Driven Token! #SHIBARIUM #HALFSHIBAINU",
   openGraph: {
@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${barlow_regular.className} ${roboto_regular.className}`}
+        className={`bg-body_clr ${barlow.variable} ${roboto.variable} font-sans`}
       >
         {children}
       </body>

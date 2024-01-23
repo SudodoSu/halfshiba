@@ -11,6 +11,34 @@
   --ExtraBold: 800;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 h1 {
   font-size: 1.5rem;
 }
@@ -19,4 +47,18 @@ h2 {
 }
 h3 {
   font-size: 1rem;
+}
+
+
+.container {
+  @apply mx-auto;
+}
+
+
+.btn {
+  @apply flex items-center gap-1 py-1.5 px-3 font-titleBold;
+}
+
+.italic {
+  transform: skew(-8deg);
 }

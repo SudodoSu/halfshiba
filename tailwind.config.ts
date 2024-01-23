@@ -29,14 +29,21 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        Barlow: ["var(--barlow-regular)", ...defaultTheme.fontFamily.sans],
-        Roboto: ["var(--roboto_regular)", ...defaultTheme.fontFamily.sans],
+        Barlow: ["var(--barlow)", ...defaultTheme.fontFamily.sans],
+        Roboto: ["var(--roboto)", ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         biggest_font_size: "2rem",
-        normal_font_size: "0.938rem",
+        normal_font_size: "1rem",
         small_font_size: "0.813rem",
         smaller_font_size: "0.75rem",
+      },
+      fontWeight: {
+        titleBold: "var(--titleBold)",
+        PRegular: "var(--PRegular)",
+        Bold: "var(--Bold)",
+        medium: "var(--medium)",
+        ExtraBold: "(--ExtraBold)",
       },
       colors: {
         clr_primary: "#fbb040",
