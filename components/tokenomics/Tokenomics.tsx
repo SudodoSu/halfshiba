@@ -62,28 +62,28 @@ function Tokenomics() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 gap-8 mt-4">
           <div>
-            <div className="text-[#25D366] uppercase px-3 w-[70%] bg-token_bg mx-auto relative">
-              <h3 className="mb-2">0%</h3>
+            <div className="rounded-bl-[35px] text-[#25D366] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center ">
+              <h3 className="mb-2 text-4xl">0%</h3>
               <p className="mb-4">buy & sell tax</p>
             </div>
           </div>
           <div>
-            <div className="text-[#ffc53a] uppercase px-3 w-[70%] bg-token_bg mx-auto">
-              <h3 className="mb-2">3400+</h3>
+            <div className="text-[#ffc53a] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
+              <h3 className="mb-2 text-4xl">3400+</h3>
               <p className="mb-4">holders</p>
             </div>
           </div>
           <div>
-            <div className="text-[#FF0084] uppercase px-3 w-[70%] bg-token_bg mx-auto">
-              <h3 className="mb-2">contract</h3>
+            <div className="text-[#FF0084] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
+              <h3 className="mb-2 text-4xl">contract</h3>
               <p className="mb-4">renounced</p>
             </div>
           </div>
           <div>
-            <div className="text-[#1DA1F2] uppercase px-3 w-[70%] bg-token_bg mx-auto">
-              <h3 className="mb-2">shiba lp</h3>
+            <div className="rounded-br-[35px] text-[#1DA1F2] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
+              <h3 className="mb-2 text-4xl">shiba lp</h3>
               <p className="mb-4">$shib0.5[lp]$shib</p>
             </div>
           </div>
