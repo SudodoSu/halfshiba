@@ -15,11 +15,15 @@ const config: Config = {
       center: true,
       
       screens: {
-        sm: '36rem',
-        md: '42rem',
-        lg: '56rem',
-        xl: '72rem',
+        sm: '720px',
+        md: '960px',
+        lg: '1140px',
+        xl: '1320px',
       },
+      // sm: '36rem',
+        // md: '42rem',
+        // lg: '56rem',
+        // xl: '72rem',
     
     },
     extend: {

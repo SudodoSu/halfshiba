@@ -1,7 +1,8 @@
 .nav_list {
-    @apply uppercase text-white text-2xl font-medium font-Barlow;
+    @apply capitalize lg:uppercase text-white text-2xl font-medium font-Barlow;
   }
   
   .active_nav {
     @apply font-titleBold;
   }
+

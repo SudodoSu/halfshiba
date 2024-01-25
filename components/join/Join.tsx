@@ -6,7 +6,7 @@ import { FaDiscord } from "react-icons/fa";
 
 function Join() {
   return (
-    <section>
+    <section className="py-10">
       <div className="container flex flex-col justify-center items-center bg-[#1d1d1d] bg-[url(/assets/images/joinbg.png)] h-[268px] rounded-[18px]">
         <div>
           <h1 className="mb-2 text-[40px] text-white uppercase font-Barlow font-Bold">

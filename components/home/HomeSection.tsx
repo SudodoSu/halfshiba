@@ -1,14 +1,15 @@
 import Image from "next/image";
 import { MdRocketLaunch } from "react-icons/md";
 import { FaTelegram } from "react-icons/fa";
+import "./homeSection.css";
 
 function HomeSection() {
   return (
-    <section className="py-8">
+    <section className="py-8 pt-[5rem]">
       <div className="container flex">
         <div className="w-1/2 flex flex-col gap-2">
           <div>
-            <button className="bg-[#42321c] px-3 py-1 rounded-full">
+            <button className="bg-[#42321c] px-3 py-1 rounded-full active:border-clr_primary transitinoWoof">
               <div className="text-clr_primary text-xl uppercase font-titleBold font-Barlow flex items-center gap-2">
                 <h3 className="">to the moon - woof!</h3>
                 <MdRocketLaunch className="text-3xl" />

@@ -66,25 +66,25 @@ function Tokenomics() {
           <div>
             <div className="rounded-bl-[35px] text-[#25D366] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center ">
               <h3 className="mb-2 text-4xl">0%</h3>
-              <p className="mb-4">buy & sell tax</p>
+              <p className="mb-4 font-medium">buy & sell tax</p>
             </div>
           </div>
           <div>
             <div className="text-[#ffc53a] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
               <h3 className="mb-2 text-4xl">3400+</h3>
-              <p className="mb-4">holders</p>
+              <p className="mb-4 font-medium">holders</p>
             </div>
           </div>
           <div>
             <div className="text-[#FF0084] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
               <h3 className="mb-2 text-4xl">contract</h3>
-              <p className="mb-4">renounced</p>
+              <p className="mb-4 font-medium">renounced</p>
             </div>
           </div>
           <div>
             <div className="rounded-br-[35px] text-[#1DA1F2] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
               <h3 className="mb-2 text-4xl">shiba lp</h3>
-              <p className="mb-4">$shib0.5[lp]$shib</p>
+              <p className="mb-4 font-medium">$shib0.5[lp]$shib</p>
             </div>
           </div>
         </div>
