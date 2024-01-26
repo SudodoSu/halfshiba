@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Reveal } from "../reveal";
 
 function Tokenomics() {
   const ref = useRef<HTMLDivElement | null>(null);
