@@ -5,9 +5,9 @@ import { FaTelegram } from "react-icons/fa";
 
 function About() {
   return (
-    <section className="py-[10px]">
-      <div className="container flex">
-        <div className="w-1/2">
+    <section className="py-[10px]" id="about">
+      <div className="container flex flex-col md:flex-row">
+        <div className="md:w-1/2">
           <Image
             src="/assets/images/burning_shib_logo.png"
             alt="burning shib logo"
@@ -15,14 +15,14 @@ function About() {
             height={500}
           />
         </div>
-        <div className="flex flex-col items-start w-1/2">
-          <h1 className="mb-2 uppercase text-white font-Barlow text-[80px] font-Bold">
+        <div className="flex flex-col items-start md:w-1/2">
+          <h1 className="mb-2 uppercase text-white font-Barlow text-5xl md:text-[80px] font-Bold">
             half shiba inu
           </h1>
-          <h4 className="mb-2 text-clr_primary uppercase font-Barlow text-[32px] font-medium">
+          <h4 className="mb-2 text-clr_primary uppercase font-Barlow text-[1.5em] md:text-[32px] font-medium">
             READY TO EXPLORE THE WORLD OF HALF SHIBA INU?
           </h4>
-          <p className="mb-4 font-Roboto max-w-[25rem] text-white font-medium">
+          <p className="mb-4 font-Roboto text-[15px] sm:text-[16px] md:max-w-[25rem] text-white font-medium">
             Meet Half Shiba Inu, also known as $SHIB0.5, the hottest crypto
             token on the market that is guaranteed to take your portfolio to the
             moon! <br /> <br /> What sets Half Shiba Inu apart from other tokens
@@ -49,11 +49,17 @@ function About() {
             $SHIB0.5 today and watch your portfolio soar!
           </p>
           <div className="flex gap-1">
-            <Link href="/" className="btn bg-clr_primary uppercase font-Barlow">
+            <Link
+              href="https://dexscreener.com/ethereum/0x914e578f8bef2607d9c16fd4954c2c10e58dc5ad"
+              className="btn bg-clr_primary uppercase font-Barlow"
+            >
               <h3>live chart</h3>
               <BsBarChartFill className="" />
             </Link>
-            <Link href="/" className="btn bg-clr_primary uppercase font-Barlow">
+            <Link
+              href="https://t.me/HalfShibaInu"
+              className="btn bg-clr_primary uppercase font-Barlow"
+            >
               <h3>telegram</h3>
               <FaTelegram className="" />
             </Link>

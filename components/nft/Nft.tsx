@@ -6,7 +6,7 @@ import { Reveal } from "../reveal";
 
 function Nft() {
   return (
-    <section className="py-10">
+    <section className="py-10" id="nft">
       <div className="container">
         <div>
           <h1 className="uppercase text-white font-Barlow font-Bold text-[32px]">
@@ -19,9 +19,9 @@ function Nft() {
           {nftImages.images.map((image, index) => (
             <article key={index} className="">
               <Image src={image.src} alt={image.alt} width={196} height={196} />
-
               <Link
-                href="/"
+                href="https://opensea.io/collection/half-shiboshis"
+                target="_blank"
                 className="py-3 px-1.5 rounded bg-clr_primary inline-block"
               >
                 buy now @opensea

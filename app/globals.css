@@ -62,3 +62,9 @@ h3 {
 .italic {
   transform: skew(-8deg);
 }
+
+.fade_element {
+  visibility: visible;
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0s;
+}
