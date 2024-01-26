@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Reveal } from "../reveal";
 
 function Tokenomics() {
   return (
@@ -9,6 +10,7 @@ function Tokenomics() {
             how to buy?
           </h1>
         </div>
+
         <div className="flex flex-col gap-4 mb-4">
           <p className="text-white">Check out the video below!</p>
           <video
@@ -18,6 +20,7 @@ function Tokenomics() {
             className="w-1/2"
           ></video>
         </div>
+
         <div className="grid grid-cols-3 font-Barlow">
           <div>
             <div className="bg-artic flex flex-col gap-2 w-[80%] h-full mx-auto p-8 rounded-tl-[35px]">
@@ -34,6 +37,7 @@ function Tokenomics() {
               </div>
             </div>
           </div>
+
           <div>
             <div className="bg-artic flex flex-col gap-2 w-[80%] h-full mx-auto p-8">
               <h2 className="mb-2 text-[40px] uppercase font-[900]">step 2</h2>
@@ -51,6 +55,7 @@ function Tokenomics() {
               </div>
             </div>
           </div>
+
           <div>
             <div className="bg-artic flex flex-col gap-2 w-[80%] h-full mx-auto p-8 rounded-tr-[35px]">
               <Image
@@ -69,18 +74,21 @@ function Tokenomics() {
               <p className="mb-4 font-medium">buy & sell tax</p>
             </div>
           </div>
+
           <div>
             <div className="text-[#ffc53a] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
               <h3 className="mb-2 text-4xl">3400+</h3>
               <p className="mb-4 font-medium">holders</p>
             </div>
           </div>
+
           <div>
             <div className="text-[#FF0084] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
               <h3 className="mb-2 text-4xl">contract</h3>
               <p className="mb-4 font-medium">renounced</p>
             </div>
           </div>
+
           <div>
             <div className="rounded-br-[35px] text-[#1DA1F2] uppercase px-3 w-[70%] bg-token_bg mx-auto font-titleBold font-Barlow flex flex-col justify-center items-center">
               <h3 className="mb-2 text-4xl">shiba lp</h3>

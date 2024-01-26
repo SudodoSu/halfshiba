@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { nftImages } from "@/lib/nftGallery";
+import { Reveal } from "../reveal";
 
 function Nft() {
   return (
@@ -11,10 +13,13 @@ function Nft() {
             non fungible tokens
           </h1>
         </div>
-        <div className="flex flex-wrap justify-between gap-4 rounded-[20px] bg-white p-3">
+        <div
+          className={`flex flex-wrap justify-between gap-4 rounded-[20px] bg-white p-3`}
+        >
           {nftImages.images.map((image, index) => (
             <article key={index} className="">
               <Image src={image.src} alt={image.alt} width={196} height={196} />
+
               <Link
                 href="/"
                 className="py-3 px-1.5 rounded bg-clr_primary inline-block"
