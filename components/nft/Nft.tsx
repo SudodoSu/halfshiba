@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { nftImages } from "@/lib/nftGallery";
-import { Reveal } from "../reveal";
 
 function Nft() {
   return (
