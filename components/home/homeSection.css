@@ -2,3 +2,45 @@
     transition: border-color .15s ease-in-out;
     border: 2px solid transparent;
 }
+
+.blure_load_img {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+}
+
+.blure_load {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.blure_load::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    animation: pulse 2.5s infinite;
+}
+
+.blure_load.not_loaded {
+    background-image: url(/assets/images/logo_halfshibainu_small.png);
+}
+
+.blure_load.loaded > img {
+    opacity: 1;
+}   
+
+.blure_load > img {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

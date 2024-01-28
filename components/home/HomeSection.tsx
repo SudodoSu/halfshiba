@@ -1,10 +1,14 @@
+"use client";
 import Image from "next/image";
 import { MdRocketLaunch } from "react-icons/md";
 import { FaTelegram } from "react-icons/fa";
 import "./homeSection.css";
 import Link from "next/link";
+import { useState } from "react";
 
 function HomeSection() {
+  const [imageLoaded, setImageLoaded] = useState<boolean>(false);
+
   return (
     <section className="py-8 pt-[5rem]" id="home">
       <div className="container flex flex-col md:flex-row items-center">
@@ -50,13 +54,20 @@ function HomeSection() {
           </div>
         </div>
         <div className="md:w-1/2 flex justify-end">
-          <Image
-            src="/assets/images/logo_halfshibainu.png"
-            alt="logo halfshibainu"
-            width={360}
-            height={360}
-            className="object-contain"
-          />
+          <div
+            className={`blure_load relative ${
+              imageLoaded ? "loaded" : "not_loaded"
+            }`}
+          >
+            <Image
+              src="/assets/images/logo_halfshibainu.png"
+              alt="logo halfshibainu"
+              width={360}
+              height={360}
+              className="object-contain blure_load_img"
+              onLoad={() => setImageLoaded(true)}
+            />
+          </div>
         </div>
       </div>
     </section>
