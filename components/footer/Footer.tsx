@@ -161,7 +161,7 @@ function Footer() {
         <hr className="h-[2px] border-none bg-white mt-[2%] mb-[3%]" />
         <div className="flex justify-center">
           <h2 className="text-white mb-4 font-Roboto text-base	text-[15px] sm:text-[16px]">
-            © Copyright 2023 Half Shiba Inu - All rights reserved.
+            © Copyright 2024 Half Shiba Inu - All rights reserved.
           </h2>
         </div>
       </div>
